@@ -11,13 +11,13 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
-  base: '/dumi_test/',
+  base: '/qiankun_test/',
   hash: true,
   ignoreMomentLocale: true,
   layout: {},
   nodeModulesTransform: {
     type: 'none',
   },
-  publicPath: '/dumi_test/',
+  publicPath: '/qiankun_test/',
   routes: [{ path: '/', component: '@/pages/index' }],
 });
