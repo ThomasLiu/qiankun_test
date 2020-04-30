@@ -11,10 +11,11 @@ export default defineConfig({
     logLevel: 'info',
     defaultSizes: 'parsed', // stat  // gzip
   },
+  hash: true,
+  ignoreMomentLocale: true,
+  layout: {},
   nodeModulesTransform: {
     type: 'none',
   },
-
-  layout: {},
   routes: [{ path: '/', component: '@/pages/index' }],
 });
