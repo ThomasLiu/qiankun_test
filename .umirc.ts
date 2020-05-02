@@ -14,10 +14,9 @@ export default defineConfig({
   base: '/qiankun_test/',
   hash: true,
   ignoreMomentLocale: true,
-  layout: {},
   nodeModulesTransform: {
     type: 'none',
   },
   publicPath: '/qiankun_test/',
-  routes: [{ path: '/', component: '@/pages/index' }],
+  // routes: [{ path: '/', component: '@/pages/index' }],
 });
