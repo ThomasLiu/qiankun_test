@@ -14,7 +14,7 @@ export default ({ children }) => (
         style={{ height: '100%', borderRight: 0 }}
       >
         <Menu.Item key="dashboard">
-          <Link to="/">App1 Dashboard</Link>
+          <Link to="/123">App3 Dashboard</Link>
         </Menu.Item>
         <Menu.Item key="user">
           <Link to="/user">User</Link>
