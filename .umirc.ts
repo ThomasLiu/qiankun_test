@@ -18,5 +18,8 @@ export default defineConfig({
     type: 'none',
   },
   publicPath: '/qiankun_test/',
-  // routes: [{ path: '/', component: '@/pages/index' }],
+  routes: [{ path: '/', component: '@/pages/index' }],
+  qiankun: {
+    slave: {},
+  },
 });

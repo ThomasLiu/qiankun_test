@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from './index.less';
 
-export default () => {
+export default function() {
   return (
     <div>
-      <h1 className={styles.title}>Master index</h1>
+      <h1>Dashboard 1</h1>
     </div>
   );
-};
+}
