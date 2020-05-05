@@ -14,4 +14,5 @@ export default {
   ],
   // TODO 测试 dynamicImport
   // dynamicImport: true,
+  devtool: 'source-map',
 };

@@ -7,4 +7,5 @@ export default {
     slave: {},
   },
   plugins: ['@umijs/plugin-dva', '@umijs/plugin-antd', '@umijs/plugin-qiankun'],
+  devtool: 'source-map',
 };

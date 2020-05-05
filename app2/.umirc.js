@@ -20,4 +20,5 @@ export default {
       component: './index',
     },
   ],
+  devtool: 'source-map',
 };
